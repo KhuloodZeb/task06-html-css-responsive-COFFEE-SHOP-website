@@ -19,7 +19,7 @@ body{
 .nav-bar img{
     padding-top: 10px;
     margin-left: 90px;
-    width: 50px;
+    width: 150px;
     height: 100px;
     transition: 0.4s;
     cursor: pointer;
@@ -97,7 +97,7 @@ body{
     margin-top: 90px;
 }
 .group-coffee{
-    padding-top: 100px;
+    padding-top: 40px;
     display: flex;
     padding-top: 100px;
     justify-content: space-around;
@@ -118,7 +118,7 @@ body{
 }
 .coffee img{
     margin-top: -70px;
-    margin-left: -70px;
+    margin-left: -55px;
     position: absolute;
     width: 120px;
     height: 120px;
@@ -465,6 +465,12 @@ footer p{
         width: 140px;
         height: 170px;
     }
+    .group-cold-coffee{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 80px;
+        gap: 80px;
+    }
     .cold-coffee img{
         width: 70px;
         height: 120px;
@@ -477,6 +483,10 @@ footer p{
         margin-top: 60px;
     }
     .group-beans{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 80px;
+        gap: 80px;
         margin-top: 90px;
     }
     .beans{
@@ -582,7 +592,7 @@ footer p{
     .group-cold-coffee{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 40px;
+        gap: 70px;
         padding-left: 100px;
     }
     .cold-coffee{
@@ -604,7 +614,7 @@ footer p{
     .group-beans{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 40px;
+        gap: 70px;
         padding-left: 80px;
         margin-top: 90px;
     }
@@ -919,14 +929,3 @@ footer p{
         height: 20px;
     }
 }
-    
-
-
-
-
-
-
-    
-
-
-
